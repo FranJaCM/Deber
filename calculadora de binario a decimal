@@ -1,0 +1,25 @@
+numero= input("Registre el numero que desea convertir")
+numeroBinario =[]
+numeroBinario2 =[]
+exponente =[]
+Num =0
+res =[]
+numeroDecimal= 0
+c=0
+for n in numero :
+  numeroBinario.append(int(n))
+  exponentes.append(Num)
+  Num+=1
+numeroBinario.reverse()
+
+for n in numeroBinario:
+  if n==1:
+    numeroBinario2.append(2)
+  else:
+    numeroBinario2.append(0)
+    
+while (c<len(numeroBinario2)):
+  res.append(numeroBinario2[c]**exponentes[c])
+  numeroDecimal+= numeroBinario[c]*res[c]
+  c+1
+print("El numero decimal es: ",numeroDecimal)  
